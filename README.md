@@ -1,4 +1,4 @@
-#### Jackleg Participants
+## Jackleg Participants
 Created on Ren'Py. Last updated 4/1/2022
 
 ### -Credits and stuff-
