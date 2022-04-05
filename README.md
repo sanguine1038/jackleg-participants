@@ -1,5 +1,5 @@
-## Jackleg Participants
-Created on Ren'Py. Last updated 4/1/2022
+# Jackleg Participants README
+Created in Ren'Py. Last updated 4/1/2022
 
 ### -Credits and stuff-
 sanguine1038 (me) did all the writing, most art, coding and suffering
@@ -17,8 +17,8 @@ Just download Ren'Py and just go off through there.
 ### -What you're allowed to do-
 Alright so you're allowed to do anything with the game, as per the source code here.
 
-## -What you're NOT allowed to do-
-Say you've worked on this even though you have had 0 contact with the original developers. YALL AINT SLICK I SEE YOU.
+### -What you're NOT allowed to do-
+Say you've worked on this even though you have had 0 contact with the original developers. YALL AINT SLICK I SEE YOU. It does nothing but confuse people and you don't look any cooler for stealing someones work
 
 ### Additional Notes
 WORK ON YOUR OWN FAN STUFF! TODAYS MODDERS ARE TOMMOROWS DEVELOPERS!!!! Also this was all made by sanguine1038 (me) and I have no idea what I'm doing with GitHub so
