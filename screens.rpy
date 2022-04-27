@@ -144,6 +144,7 @@ style namebox:
     xsize gui.namebox_width
     ypos gui.name_ypos
     ysize gui.namebox_height
+#    color ffffff
 
     background Frame("gui/namebox.png", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
     padding gui.namebox_borders.padding
@@ -395,7 +396,7 @@ style main_menu_frame:
     xsize 280
     yfill True
 
-    background "gui/overlay/main_menu.png"
+#    background "gui/overlay/main_menu.png"
 
 style main_menu_vbox:
     xalign 1.0

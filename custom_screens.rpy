@@ -1,15 +1,26 @@
 
+#screen bleh:
+
+
+
 screen gameUI:
     imagebutton:
         xalign 1.0
         yalign 0.0
-        xoffset -30
-        yoffset 30
+        xoffset -432
+        yoffset 530
         auto "UI/move_%s.png"
         action Jump ("call_mapUI")
         # You may also use the code below depending on your needs.
         # action ShowMenu("mapUI")
         # This was the same code used in the vlog.
+    imagebutton:
+        xalign 1.0
+        yalign 0.0
+        xoffset -624
+        yoffset 530
+        auto "UI/data_%s.png"
+        action ShowMenu ("save")
 
 # If you just want to show a map that does nothing more than just an indicator, it's good to use ShowMenu.
 # If you want to navigate using the map, it's prefered to use "call".
@@ -19,6 +30,7 @@ screen gameUI:
 # higher Y goes down
 label call_mapUI:
     call screen MapUI
+
 
 label characters:
     call screen characters
@@ -65,44 +77,46 @@ screen characters:
         #a new one of these for each discussion
         xpos 0
         ypos 2
-        idle "portraits/anzu-p.png"
-        hover "portraits/anzu-p.png"
+        idle "portraits/empty.png"
+        hover "portraits/empty.png"
         action Jump("Anzu_Pressed")
 
-    imagebutton:
-        xpos 163 #everyone is 163 thingeys away
-        ypos 2
-        idle "portraits/alice-p.png"
-        hover "portraits/alice-p.png"
-        action Jump("another")
+#    imagebutton: alice
+#        xpos 163 #everyone is 163 thingeys away
+#        ypos 2
+#        idle "portraits/empty.png"
+#        hover "portraits/empty.png"
+#        action Jump("another")
 
+#if persistent.whatever:
     imagebutton:
-        xpos 326
+        xpos 327
         ypos 2
         idle "portraits/haya-p.png"
         hover "portraits/haya-p.png"
         action Jump("Haya_Pressed")
 
-    imagebutton:
-        xpos 489
-        ypos 2
-        idle "portraits/hinako-p.png"
-        hover "portraits/hinako-p.png"
-        action Jump("Hinako_Pressed")
+#    imagebutton:hinako
+#        xpos 489
+#        ypos 2
+#        idle "portraits/empty.png"
+#        hover "portraits/empty.png"
+#        action Jump("another")
 
     imagebutton:
-        xpos 652
+        xpos 653
         ypos 2
-        idle "portraits/kugie-p.png"
-        hover "portraits/kugie-p.png"
-        action Jump("another")
+        idle "portraits/empty.png"
+        hover "portraits/empty.png"
+#        action If( repflirt, Show("Kugie_Pressed") )
+        action Jump("Kugie_Pressed")
 
-    imagebutton:
-        xpos 0
-        ypos 502
-        idle "portraits/kurumada-p.png"
-        hover "portraits/kurumada-p.png"
-        action Jump("another")
+#    imagebutton: kurumada
+#        xpos 0
+#        ypos 502
+#        idle "portraits/empty.png"
+#        hover "portraits/empty.png"
+#        action Jump("another")
 
     imagebutton:
         xpos 163
@@ -112,22 +126,22 @@ screen characters:
         action Jump("another")
 
     imagebutton:
-        xpos 326
+        xpos 327
         ypos 502
         idle "portraits/megumi-p.png"
         hover "portraits/megumi-p.png"
         action Jump("Megumi_Pressed")
 
     imagebutton:
-        xpos 489
+        xpos 490
         ypos 502
         idle "portraits/ranmaru-p.png"
         hover "portraits/ranmaru-p.png"
         action Jump("Ranmaru_Pressed")
 
-    imagebutton:
-        xpos 652
-        ypos 502
-        idle "portraits/shin-p.png"
-        hover "portraits/shin-p.png"
-        action Jump("another")
+#    imagebutton: shin
+#        xpos 652
+#        ypos 502
+#        idle "portraits/empty.png"
+#        hover "portraits/empty.png"
+#        action Jump("another")

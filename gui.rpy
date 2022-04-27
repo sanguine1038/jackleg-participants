@@ -23,29 +23,29 @@ init python:
 ## The colors of text in the interface.
 
 ## An accent color used throughout the interface to label and highlight text.
-define gui.accent_color = u'#0099cc'
+define gui.accent_color = u'#ffffff'
 
 ## The color used for a text button when it is neither selected nor hovered.
-define gui.idle_color = u'#888888'
+define gui.idle_color = u'#ffffff'
 
 ## The small color is used for small text, which needs to be brighter/darker to
 ## achieve the same effect.
-define gui.idle_small_color = u'#aaaaaa'
+define gui.idle_small_color = u'#ffffff'
 
 ## The color that is used for buttons and bars that are hovered.
-define gui.hover_color = u'#66c1e0'
+define gui.hover_color = u'#ffffff'
 
 ## The color used for a text button when it is selected but not focused. A
 ## button is selected if it is the current screen or preference value.
 define gui.selected_color = u'#ffffff'
 
 ## The color used for a text button when it cannot be selected.
-define gui.insensitive_color = u'#8888887f'
+define gui.insensitive_color = u'#ffffff'
 
 ## Colors used for the portions of bars that are not filled in. These are not
 ## used directly, but are used when re-generating bar image files.
-define gui.muted_color = u'#003d51'
-define gui.hover_muted_color = u'#005b7a'
+define gui.muted_color = u'#ffffff'
+define gui.hover_muted_color = u'#ffffff'
 
 ## The colors used for dialogue and menu choice text.
 define gui.text_color = u'#ffffff'
@@ -106,7 +106,7 @@ define gui.textbox_yalign = 1.0
 ## The placement of the speaking character's name, relative to the textbox.
 ## These can be a whole number of pixels from the left or top, or 0.5 to center.
 define gui.name_xpos = 0
-define gui.name_ypos = -50
+define gui.name_ypos = -53
 
 ## The horizontal alignment of the character's name. This can be 0.0 for left-
 ## aligned, 0.5 for centered, and 1.0 for right-aligned.
