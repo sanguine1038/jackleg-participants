@@ -1,5 +1,5 @@
 # Jackleg Participants README
-Created in Ren'Py. Last updated 4/17/2022
+Created in Ren'Py. Last updated 5/1/2022
 
 ### -Credits and stuff-
 sanguine1038 (me) did all the writing, most art, coding and suffering
