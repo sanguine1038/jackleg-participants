@@ -36,5 +36,6 @@ if anything is out of place here just be paitent.
 * If you wanna know more stuff about the Jackleg Participants go here: https://sanguine-archives.neocities.org/jackleg/jp-home.html (Not this is a sister site to a different project I also have no idea what I'm doing in.)
 * READ THE WIKI!! NOW!
 * Trans rights!
+* If you're reading this and it says Ren'Py, you're looking at the wrong github page BOZO
 
 Love yourself.
